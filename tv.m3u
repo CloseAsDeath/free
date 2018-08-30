@@ -20,7 +20,7 @@ http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(ESPN_PLUS_HD)/Stream(0
 http://sv1.futbollibre.net/hls-proxy/stream.m3u8
 #EXTINF:-1 group-title="DEPORTES",TyC Sports
 http://sv1.futbollibre.net/hls-proxy/tyc/stream.m3u8
-#EXTINF:-1 group-title="DEPORTES",Claro Sports
+#EXTINF:-1 group-title="DEPORTES",Claro Sports Latinoamerica
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CLARO_SPORTS_LATAM_HD)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",CDO Basico
 http://edge1.cl.grupoz.cl/cdofree/live/chunklist_w102518198.m3u8
@@ -37,7 +37,7 @@ http://mdstrm.com/live-stream-playlist/53d2c1a32640614e62a0e000.m3u8
 #EXTINF:-1 group-title="CHILE",UCV
 https://unlimited4-cl.dps.live/ucvtv/ucvtv.smil/ucvtv/livestream1/chunks.m3u8
 #EXTINF:-1 group-title="CHILE",La Red
-https://d28d7tc1ojykcy.cloudfront.net/lared/smil:lared.smil/playlist.m3u8|User-agent=iPhone
+https://d28d7tc1ojykcy.cloudfront.net/lared/smil:lared.smil/chunklist_b1429163.m3u8
 #EXTINF:-1 group-title="CHILE",TVN
 http://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8
 #EXTINF:-1 group-title="CHILE",TV Chile
@@ -69,6 +69,8 @@ http://wow2.cl.digitalproserver.com/injuv/injuvvivo/injuv.smil/chunklist_w102518
 
 #EXTINF:0,-ANIMACION-
 
+#EXTINF:-1 group-title="ANIMACION",Baby TV
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(BABYTV)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="ANIMACION",Boomerang
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(BOOMERANG)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="ANIMACION",Cartoon Network
@@ -94,124 +96,126 @@ http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TOONCAST)/Stream(04)/inde
 
 #EXTINF:0,-CULTURA-
 
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Animal Planet
+#EXTINF:-1 group-title="CULTURA",Animal Planet
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(ANIMAL_PLANET_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Investigation Discovery
+#EXTINF:-1 group-title="CULTURA",Investigation Discovery
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(ID_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",History
+#EXTINF:-1 group-title="CULTURA",History
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(HISTORY_CHANNEL_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",H2
+#EXTINF:-1 group-title="CULTURA",H2
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(H2)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",NatGeo
+#EXTINF:-1 group-title="CULTURA",NatGeo
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(NATGEO_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",NatGeo Wild
+#EXTINF:-1 group-title="CULTURA",NatGeo Wild
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(NATGEO_WILD_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery Channel
+#EXTINF:-1 group-title="CULTURA",Discovery Channel
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(DISCOVERY_CHANNEL_HD)/Stream(05)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery Civilization
+#EXTINF:-1 group-title="CULTURA",Discovery Civilization
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(DISCOVERY_CIVILIZATION)/Stream(03)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery H&H
+#EXTINF:-1 group-title="CULTURA",Discovery H&H
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(DISCOVERY_HOME_HEALTH_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery Science
+#EXTINF:-1 group-title="CULTURA",Discovery Science
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(DISCOVERY_SCIENCE)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery Theater
+#EXTINF:-1 group-title="CULTURA",Discovery Theater
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(DISCOVERY_THEATER_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery Turbo
+#EXTINF:-1 group-title="CULTURA",Discovery Turbo
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(DISCOVERY_TURBO)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery TLC
+#EXTINF:-1 group-title="CULTURA",Discovery TLC
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TLC_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CULTURA",Discovery World
+#EXTINF:-1 group-title="CULTURA",Discovery World
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(DISCOVERY_WORLD_HD)/Stream(04)/index.m3u8
 
 #EXTINF:0,-CINE Y SERIES-
 
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",AMC
+#EXTINF:-1 group-title="CINE Y SERIES",AMC
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(AMC_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",AXN
+#EXTINF:-1 group-title="CINE Y SERIES",AXN
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(AXN_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",A&E
+#EXTINF:-1 group-title="CINE Y SERIES",A&E
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(AE_MUNDO_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Cinecanal
+#EXTINF:-1 group-title="CINE Y SERIES",Cinecanal
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(CINECANAL_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Cinemax
+#EXTINF:-1 group-title="CINE Y SERIES",Cinemax
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CINEMAX)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Cine Latino
+#EXTINF:-1 group-title="CINE Y SERIES",Cine Latino
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(CINELATINO)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Cine Dinamita
+#EXTINF:-1 group-title="CINE Y SERIES",Cine Dinamita
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(CINEMA_DINAMITA)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Claro Cinema
+#EXTINF:-1 group-title="CINE Y SERIES",Claro Cinema
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CLARO_CINEMA)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Comedy Central
+#EXTINF:-1 group-title="CINE Y SERIES",Comedy Central
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(COMEDY_CENTRAL_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",De Pelicula
+#EXTINF:-1 group-title="CINE Y SERIES",De Pelicula
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(DEPELICULA)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",DHE
+#EXTINF:-1 group-title="CINE Y SERIES",DHE
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(DHE_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Film Zone
+#EXTINF:-1 group-title="CINE Y SERIES",FXM
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(THE_FILM_ZONE_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",FX
+#EXTINF:-1 group-title="CINE Y SERIES",FX
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FX_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox
+#EXTINF:-1 group-title="CINE Y SERIES",Fox
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FOX_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Action
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Action
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(FOXACTION_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Cinema
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Cinema
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FOX_CINEMA_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Classics
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Classics
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(FOX_CLASSICS_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Comedy
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Comedy
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FOX_COMEDY_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Family
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Family
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FOXFAMILY_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",FOX Life
+#EXTINF:-1 group-title="CINE Y SERIES",FOX Life
 http://live.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_LIFE_HD)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Movies
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Movies
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FOXMOVIES_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Fox Series
+#EXTINF:-1 group-title="CINE Y SERIES",Fox Series
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(FOX1_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Golden
+#EXTINF:-1 group-title="CINE Y SERIES",Golden
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(GOLDEN)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Golden Premier
+#EXTINF:-1 group-title="CINE Y SERIES",Golden Premier
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(GOLDEN_PREMIER_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",HBO
+#EXTINF:-1 group-title="CINE Y SERIES",HBO
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(HBO_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",HBO 2
+#EXTINF:-1 group-title="CINE Y SERIES",HBO 2
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(HBO_2_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",HBO Family
+#EXTINF:-1 group-title="CINE Y SERIES",HBO Family
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(HBO_FAMILY_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",HBO Plus
+#EXTINF:-1 group-title="CINE Y SERIES",HBO Plus
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(HBO_PLUS_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",HBO Signature
+#EXTINF:-1 group-title="CINE Y SERIES",HBO Signature
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(HBO_SIGNATURE_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",ISAT
+#EXTINF:-1 group-title="CINE Y SERIES",ISAT
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(ISAT)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Max 
+#EXTINF:-1 group-title="CINE Y SERIES",Max 
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(MAX)/Stream(03)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Max Prime
+#EXTINF:-1 group-title="CINE Y SERIES",Max Prime
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(MAX_PRIME_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Max Up
+#EXTINF:-1 group-title="CINE Y SERIES",Max Up
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(MAX_UP_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Multipremier
+#EXTINF:-1 group-title="CINE Y SERIES",Multipremier
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(MULTIPREMIER)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Paramount Channel
+#EXTINF:-1 group-title="CINE Y SERIES",Paramount Channel
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(PARAMOUNT_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",TBS
+#EXTINF:-1 group-title="CINE Y SERIES",TBS
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(TBS_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",TCM
+#EXTINF:-1 group-title="CINE Y SERIES",TCM
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TCM)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",TNT
+#EXTINF:-1 group-title="CINE Y SERIES",TNT
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TNT_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",TNT Series
+#EXTINF:-1 group-title="CINE Y SERIES",TNT Series
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TNT_SERIES_HD)/Stream(04)/index.m3u
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Sony
+#EXTINF:-1 group-title="CINE Y SERIES",Sony
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(SONY_HD)/Stream(06)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Space
+#EXTINF:-1 group-title="CINE Y SERIES",Space
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(SPACE_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Sundance TV
+#EXTINF:-1 group-title="CINE Y SERIES",Sundance TV
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(SUNDANCE_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Universal Channel
+#EXTINF:-1 group-title="CINE Y SERIES",Studio Universal
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(STUDIO_UNIVERSAL)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="CINE Y SERIES",Universal Channel
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(UNIVERSAL_CHANNEL_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="CINE Y SERIES",Warner Channel
+#EXTINF:-1 group-title="CINE Y SERIES",Warner Channel
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(WARNER_HD)/Stream(04)/index.m3u8 
 
 #EXTINF:0,-MISCELANEOS-
@@ -234,7 +238,7 @@ http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(HOLA_TV_HD)/Stream(04)
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(INTI_HD)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="MISCELANEOS",Las Estrellas
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(ESTRELLAS_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MISCELANEOS",Lifetime
+#EXTINF:-1 group-title="MISCELANEOS",Lifetime
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(LIFETIME)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="MISCELANEOS",MasChic
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(MASCHIC_HD)/Stream(04)/index.m3u8
@@ -244,11 +248,11 @@ http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(NUESTRA_TELE)/Stream(0
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(PASIONES_HD)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="MISCELANEOS",RCN Telenovelas
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(RCN_TELENOVELAS)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MISCELANEOS",Unicable
+#EXTINF:-1 group-title="MISCELANEOS",Unicable
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(UNICABLE)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MISCELANEOS",Telemundo
+#EXTINF:-1 group-title="MISCELANEOS",Telemundo
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TELEMUNDO)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MISCELANEOS",TL Novelas
+#EXTINF:-1 group-title="MISCELANEOS",TL Novelas
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(TLNOVELAS)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="MISCELANEOS",Tru TV
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(TRU_TV_HD)/Stream(04)/index.m3u8
@@ -257,19 +261,25 @@ http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(VEPLUSTV)/Stream(04)/i
 
 #EXTINF:0,-MUSICA-
 
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",Concert Channel
+#EXTINF:-1 group-title="MUSICA",Concert Channel
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CONCERT_CHANNEL_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",HTV
+#EXTINF:-1 group-title="MUSICA",HTV
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(HTV)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",MTV
+#EXTINF:-1 group-title="MUSICA",Claro Musica Lado A
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(VALLENATO)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="MUSICA",Claro Musica Lado B
+http://live.lcdn.claro.net.co/Content/hls/Live/Channel(K_MUSIC)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="MUSICA",MTV
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(MTV_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",MTV Hits
+#EXTINF:-1 group-title="MUSICA",MTV Hits
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(MTV_HITS)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",MTV Live
+#EXTINF:-1 group-title="MUSICA",MTV Live
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(MTV_LIVE_HD)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",VH1
+#EXTINF:-1 group-title="MUSICA",Telehit
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(TELEHIT)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="MUSICA",VH1
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(VH1)/Stream(04)/index.m3u8
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/614sWQDJGNL.png" group-title="MUSICA",VH1 Classics
+#EXTINF:-1 group-title="MUSICA",VH1 Classics
 http://live.lcdn.claro.net.co/Content/hls/Live/Channel(VH1_CLASSIC)/Stream(04)/index.m3u8
 
 #EXTINF:0,-NOTICIAS-
@@ -280,16 +290,24 @@ http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CNN_ESPANOL)/Stream(04
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CNN_INTERNACIONAL)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",Aljazeera
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(ALJAZEERA_HD)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="NOTICIAS",AZ Mundo
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(AZMUNDO_HD)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",BBC World
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(BBC_WORLD)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",Bloomberg
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(BLOOMBERG)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="NOTICIAS",Caracol Internacional
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(CARACOL_INT)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="NOTICIAS",DW Amerika
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(DW_AMERIKA)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",DW
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(DW)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",France24
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(FRANCE24_HD)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",Fox News
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(FOXNEWS)/Stream(04)/index.m3u8
+#EXTINF:-1 group-title="NOTICIAS",Headline News
+http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(HEADLINE_NEWS)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",Rai
 http://live.lcdn.claro.net.co/Content/hls_fk/Live/Channel(RAI)/Stream(04)/index.m3u8
 #EXTINF:-1 group-title="NOTICIAS",TV5
